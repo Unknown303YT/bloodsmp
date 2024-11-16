@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "bloodsmp",
+	"version": "${version}",
+	"name": "BloodSMP Mod",
+	"description": "The Official Mod of the BloodSMP.",
+	"authors": [
+		"Unknown_303"
+	],
+	"contact": {
+		"sources": "https://github.com/Unknown303YT/bloodsmp"
+	},
+	"license": "ARR",
+	"icon": "assets/bloodsmp/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "com.riverstone.unknown303.bloodsmp.BloodMod"
+		],
+		"fabric-datagen": [
+			"com.riverstone.unknown303.bloodsmp.BloodModDataGenerator"
+		],
+		"client": [
+			"com.riverstone.unknown303.bloodsmp.BloodModClient"
+		]
+	},
+	"mixins": [
+		"bloodsmp.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.3",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
