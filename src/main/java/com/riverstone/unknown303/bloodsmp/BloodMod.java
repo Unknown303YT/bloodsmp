@@ -1,5 +1,7 @@
 package com.riverstone.unknown303.bloodsmp;
 
+import com.riverstone.unknown303.bloodsmp.item.ModItemGroups;
+import com.riverstone.unknown303.bloodsmp.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,6 +13,7 @@ public class BloodMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ModItems.registerModItems();
+		ModItemGroups.registerItemGroups();
 	}
 }
