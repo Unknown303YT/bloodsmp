@@ -21,5 +21,6 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.BLOOD_BOTTLE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.HEART, Models.GENERATED);
     }
 }

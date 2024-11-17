@@ -1,4 +1,6 @@
 {
   "item.bloodsmp.blood_bottle": "Bottle of Blood",
-  "itemgroup.bloodsmp.bloodsmp_items": "BloodSMP Items"
+  "itemgroup.bloodsmp.bloodsmp_items": "BloodSMP Items",
+
+  "msg.bloodsmp.max_hearts": "You already have the maximum number of Hearts."
 }
