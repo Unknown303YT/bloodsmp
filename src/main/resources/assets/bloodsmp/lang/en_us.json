@@ -1,6 +1,20 @@
 {
   "item.bloodsmp.blood_bottle": "Bottle of Blood",
+  "item.bloodsmp.admin_mace": "Admin's Mace",
   "itemgroup.bloodsmp.bloodsmp_items": "BloodSMP Items",
+  "itemgroup.bloodsmp.admin_items": "Admin Items",
+
+  "msg.bloodsmp.change_mode.switch_normal": "Admin's Mace Mode Set To: Switch to Normal Mace",
+  "msg.bloodsmp.change_mode.instant_kill": "Admin's Mace Mode Set To: Instant Kill",
+  "msg.bloodsmp.change_mode.remove_effects": "Admin's Mace Mode Set To: Remove Effects",
+  "msg.bloodsmp.change_mode.kick": "Admin's Mace Mode Set To: Kick Player",
+  "msg.bloodsmp.change_mode.ban": "Admin's Mace Mode Set To: Ban Player",
+  "msg.bloodsmp.change_mode.incorrect_item": "You are not currently holding an Admin's Mace!",
+
+  "msg.bloodsmp.change_mace.success": "Successfully Changed Mace Type",
+  "msg.bloodsmp.change_mace.fail": "Failed to Change Mace Type!",
+
+  "key.bloodsmp.admin_mace_mode": "Change Admin's Mace Mode",
 
   "msg.bloodsmp.max_hearts": "You already have the maximum number of Hearts."
 }

@@ -1,11 +1,12 @@
 {
-	"required": true,
-	"package": "com.riverstone.unknown303.bloodsmp.mixin",
-	"compatibilityLevel": "JAVA_21",
-	"mixins": [
-      "BloodMixin"
-	],
-	"injectors": {
-		"defaultRequire": 1
+  "required": true,
+  "package": "com.riverstone.unknown303.bloodsmp.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "BloodMixin",
+    "MaceItemMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
 	}
 }

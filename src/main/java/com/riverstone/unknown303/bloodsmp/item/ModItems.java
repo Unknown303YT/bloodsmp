@@ -1,6 +1,8 @@
 package com.riverstone.unknown303.bloodsmp.item;
 
 import com.riverstone.unknown303.bloodsmp.BloodMod;
+import com.riverstone.unknown303.bloodsmp.item.custom.AdminMaceItem;
+import com.riverstone.unknown303.bloodsmp.item.custom.AdminMaceItem.AdminMaceMode;
 import com.riverstone.unknown303.bloodsmp.item.custom.BloodBottleItem;
 import com.riverstone.unknown303.bloodsmp.item.custom.HeartItem;
 import net.minecraft.item.Item;
@@ -18,6 +20,10 @@ public class ModItems {
     public static final Item HEART = registerItem("heart",
             new HeartItem(new Item.Settings()
                     .registryKey(createRegistryKey("heart"))));
+    public static final Item ADMIN_MACE = registerItem("admin_mace",
+            new AdminMaceItem(new Item.Settings()
+                    .registryKey(createRegistryKey("admin_mace")),
+                    AdminMaceMode.SWITCH_TO_NORMAL));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(BloodMod.MOD_ID, name), item);

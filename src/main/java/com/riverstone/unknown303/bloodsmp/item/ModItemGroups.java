@@ -16,8 +16,14 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.bloodsmp.bloodsmp_items"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.BLOOD_BOTTLE);
-                    })
-                    .build());
+                    }).build());
+    public static final ItemGroup ADMIN_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(BloodMod.MOD_ID, "admin_items"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.ADMIN_MACE))
+                    .displayName(Text.translatable("itemgroup.bloodsmp.admin_items"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModItems.ADMIN_MACE);
+                    }).build());
 
     public static void registerItemGroups() {
         BloodMod.LOGGER.info("Registering Item Groups for " + BloodMod.MOD_ID);

@@ -22,6 +22,9 @@
 		],
 		"client": [
 			"com.riverstone.unknown303.bloodsmp.BloodModClient"
+		],
+		"modmenu": [
+			"com.riverstone.unknown303.bloodsmp.integration.ModMenuIntegration"
 		]
 	},
 	"mixins": [
